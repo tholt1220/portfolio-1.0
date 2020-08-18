@@ -1,0 +1,355 @@
+  /*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+ .bg-light{
+   background-color: #c0d2dd !important;
+ }
+ 
+ .bg-primary{
+   /* background-color: #24517B !important; */
+   background-color: #A5BDCB !important;
+ }
+
+ html, body{
+   height: 100%;
+   min-height: 100%;
+ }
+header {
+  padding: 200px 0 250px;
+  background-image: url("../img/background2.jpg");
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-blend-mode: color;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size:cover; 
+}
+
+section {
+  padding: 50px 0;
+}
+
+.section-title{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/*HEADER FONT ICONS*/
+.header-social .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  color: white;
+}
+
+.navbar{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: 400ms ease-in;
+}
+.nav-item{
+  padding: 0 1rem 0 1rem;
+}
+.nav-link{
+  font-size: 20px;
+}
+.navbar.scrolled {
+  background-color: #24517B !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: 400ms ease-in;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  /* bottom: 0; */
+  /* width: 100%; */
+  /* height: 60px; 
+  line-height: 60px;  */
+  padding: 25px 0 25px 0;
+  background-color: #24517B !important;
+}
+
+.footer-social li{
+  display: inline;
+  text-align: center;
+}
+.footer-social li .fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  color: #A5BDCB;
+}
+.carousel-inner:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.carousel-item{
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  text-align: center;
+}
+
+
+/*font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  color: black;
+}
+/* progress bar */
+.progress-bar{
+  background-color: #24517B;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+img{
+  vertical-align: middle;
+}
+
+/* modals */
+.modal-header{
+  background-color: #c0d2dd;
+}
+.modal-body {
+  background-color: #24517B;
+}
+
+.modal-description{
+  padding: 10px 30px 0px 30px;
+  background-color: #c0d2dd;
+}
+
+.modal-footer{
+  background-color: #c0d2dd;
+}
+/* End modals */
+
+.thumbnail{
+  position:relative;
+  overflow:hidden;
+  padding-bottom:100%;
+}
+
+pre{
+  color:black;
+}
+
+#profilePic{
+  border-radius: 50%;
+}
+
+.profile-col:hover #profilePic{
+  opacity: 0.7;
+}
+
+.profile-col:hover .profileText {
+  opacity: 1;
+}
+
+
+.profileText {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.profile-list li p{
+  margin-bottom: 0;
+}
+
+/* Portfolio */
+.portfolio-item{
+  margin: 10px 10px 0px 10px;
+  padding: 20px;
+  height:75%;
+  /* background-color: #598C9A; */
+  background-color: #24517B;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.portfolio-info{
+  text-align: center;
+  background-color: lightgrey;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.portfolio-item img{
+  margin: auto;
+}
+
+.portfolio-item:hover img{
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.portfolio-item:hover .portfolio-overlay{
+  opacity: 1;
+  filter: brightness(100%);
+}
+
+.portfolio-overlay{
+  background-color: transparent;
+  color:white;
+}
+
+.portfolio-overlay{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+
+
+/* "Album covers" */
+
+.playlistCard{
+  perspective: 40rem;
+}
+
+.playlistCard:hover .card-body{
+  transform: rotateX(-180deg);
+}
+.card-body{
+  display: flex;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  padding: 0;
+}
+
+.flip-front, .flip-back{
+  min-width: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-back{
+  transform: rotateX(180deg) translate(-100%,0);
+}
+
+.playlistPic, .actionShot{
+  border-radius: 15%;
+}
+
+.playlist-text a{
+  color: #212529;
+}
+
+
+/* .profile-col:hover .funText {
+  opacity: 1;
+}
+.funText {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.fa-play-circle{
+  font-size: 60px;
+  text-align: center;
+  width: auto;
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+} */
+
+.playlist-text  *{
+  display: inline;
+  vertical-align: baseline;
+  margin-right: 10px;
+}
+
+.playlist-text p{
+  font-weight: lighter;
+  font-style: italic;
+}
+
+
+.required{
+  color: red;
+}
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: lightgrey;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #24517B;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.progress{
+  height: 5px;
+}
+
+#email-sent{
+  padding: 6px;
+  margin-left: 25px;
+  background-color: transparent;
+  border-radius: 0px;
+  color: #24517B;
+  display: none;
+}
