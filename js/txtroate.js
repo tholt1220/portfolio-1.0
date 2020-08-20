@@ -39,7 +39,7 @@ var TxtRotate = function(el, toRotate, period) {
     }, delta);
   };
   
-  window.onload = function() {
+ $(document).ready(function() {
     /* header text carousel */
     var elements = document.getElementsByClassName('txt-rotate');
     for (var i=0; i<elements.length; i++) {
@@ -67,7 +67,7 @@ var TxtRotate = function(el, toRotate, period) {
       this.reset();
   });
   
-  };
+  });
   
   // text popup om email sent
   function toggle(){
