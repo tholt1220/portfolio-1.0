@@ -236,7 +236,8 @@ pre{
 }
 
 .timelineHeader{
-  height: 50px
+  /* height: 50px; */
+  display: block
 }
 .timelineTitle{
     float: left;
