@@ -31,10 +31,13 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#work">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#fun">Music</a>
@@ -87,7 +90,7 @@
           <div class = "row">
             <div class ="col-md-6">
               <h4>Profile</h4>
-              <p>I'm currently looking for an entry level software engineering position. Feel free to <a class = js-scroll-trigger href="#contact" style = "color: #24517B;">contact me</a>!</p>
+              <p>I'm currently looking for an entry level software engineering position. Feel free to <a class = js-scroll-trigger href="#contact">contact me</a>!</p>
               <ul class="list-group list-group-flush profile-list">
                 <li class="list-group-item bg-primary">
                   <strong>Full Name:</strong>
@@ -127,6 +130,12 @@
                   </div>
                 </li>
                 <li class="list-group-item bg-primary">
+                  Javascript/Node.js
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
+                  </div>
+                </li>
+                <li class="list-group-item bg-primary">
                   Java
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
@@ -145,7 +154,7 @@
                   </div>
                 </li>
                 <li class="list-group-item bg-primary">
-                  HTML/CSS/JS
+                  HTML/CSS
                   <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
                   </div>
@@ -163,32 +172,65 @@
       </div>
     </div>
   </section>
+  <section id="work" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class = "section-title">
+            <h1>Work Experience</h1>
+            <h4>Here's where I've worked.</h4>
+          </div>
+          <ul class = "timeline">
+            <li>
+              <div class ="timelineHeader">
+                <h3 class ="timelineTitle">Reazon Holding, LLC</h3>
+                <h4 class ="timelineYear">2020 - Present</h4>
+              </div>
+              <h4 class ="lead">Software Enginering Intern</h4>           
+              <ul class="list-group list-group-flush bg-light">
+                <li class="list-group-item bg-light">Member of Zapshot Team, an iOS social media and chat application</li>
+                <li class="list-group-item bg-light">Developed web application using Vue.js and Bootstrap to improve administrative capabilities, such as flagging inappropriate content and moderating a user's posts and comments</li>
+                <li class="list-group-item bg-light">Expanded RESTful API that served data to our iOS client, which utilize third party SDKs (<a href = "https://getstream.io/">GetStream</a>, <a href ="https://onesignal.com/">OneSignal</a>, <a href="https://quickblox.com/">QuickBlox</a>) to perform automated push notifications on timeline updates</li>
+                <li class="list-group-item bg-light">Unit Tested API using Jest framework, ensuring API stability across a team spanning three countries</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <section id="education" class="bg-light">
+  <section id="education" class="bg-primary">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <div class = "section-title">
             <h1>Education</h1>
-            <h4>Here's where I studied.</h4>
+            <h4>Here's where I've studied.</h4>
           </div>
           <ul class = "timeline">
             <li>
-              <h3>University of California, Los Angeles (2016-2020)</h3>
+              <div class ="timelineHeader">
+                <h3 class ="timelineTitle">University of California, Los Angeles</h3>
+                <h4 class ="timelineYear">2016 - 2020</h4>
+              </div>                  
               <ul class="list-group list-group-flush bg-light"> 
-                <li class="list-group-item bg-light">B.S. in Computer Science</li>
-                <li class="list-group-item bg-light">Member of UCLA Likelion</li>
-                <li class="list-group-item bg-light">Member of UCLA Nikkei Student Union</li>
-                <li class="list-group-item bg-light">UCLA Marching Band and Drumline</li>
+                <li class="list-group-item bg-primary">B.S. in Computer Science</li>
+                <li class="list-group-item bg-primary">Member of UCLA Likelion</li>
+                <li class="list-group-item bg-primary">Member of UCLA Nikkei Student Union</li>
+                <li class="list-group-item bg-primary">UCLA Marching Band and Drumline</li>
               </ul>
             </li>
             <li>
-              <h3>Foothill High School (2012-2016)</h3>
+              <div class ="timelineHeader">
+                <h3 class ="timelineTitle">Foothill High School</h3>
+                <h4 class ="timelineYear">2012 - 2016</h4>
+              </div>                  
               <ul class="list-group list-group-flush">
-                <li class="list-group-item bg-light">2016 Recipient of US Marine Corps Award for excellence in leadership and Musicianship </li>
-                <li class="list-group-item bg-light">Principal Percussionist in Wind Ensemble</li>
-                <li class="list-group-item bg-light">Member and Section Leader of Marching Band and Drumline</li>
-                <li class="list-group-item bg-light">Honor Roll and Principal's List</li>
+                <li class="list-group-item bg-primary">2016 Recipient of US Marine Corps Award for excellence in leadership and Musicianship </li>
+                <li class="list-group-item bg-primary">Principal Percussionist in Wind Ensemble</li>
+                <li class="list-group-item bg-primary">Member and Section Leader of Marching Band and Drumline</li>
+                <li class="list-group-item bg-primary">Honor Roll and Principal's List</li>
               </ul>
             </li>
           </ul>
@@ -198,7 +240,7 @@
     </div>
   </section>
 
-  <section id="work" class="bg-primary">
+  <section id="projects" class="bg-light">
   <!-- MODALS -->
   <div class="modal fade" id="SwiprModal" tabindex="-1" role="dialog" aria-labelledby="SwiprModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -418,68 +460,10 @@
           </div>
         </div>    
       </div>
-      <!-- <div class = "row">
-        <div class = "col-lg-10 mx-auto" >
-          <div id="carouselWorkIndicators" class="carousel slide bg-dark" data-ride="carousel">
-            <ol class="carousel-indicators" clas ="bg-dark">
-              <li data-target="#carouselWorkIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselWorkIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselWorkIndicators" data-slide-to="2"></li>
-              <li data-target="#carouselWorkIndicators" data-slide-to="3"></li>
-              <li data-target="#carouselWorkIndicators" data-slide-to="4"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-toggle="modal" data-target="#SwiprModal" style="background-color: #fdbe4a;">
-                <img class = "img-fluid " src="img/swipr.jpg" alt="Swipr" style="opacity: 0.8;">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Swipr</h5>
-                  <pre>Android Studio   Java    Docker</pre>
-                </div>              
-              </div>
-              <div class="carousel-item" data-toggle="modal" data-target="#TempolModal" style="background-color: cornflowerblue;">
-                <img class = "w-50 my-5" src="img/tempol_mockup.png" alt="Tempol" style="opacity: 0.8;">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Tempol</h5>
-                  <pre>Python   HTML  Javascript  Flask   Docker  AWS</pre>
-                </div>       
-              </div>
-              <div class="carousel-item" data-toggle="modal" data-target="#ProfessorModal">
-                <img class = "img-fluid" src="img/professor_review.jpg" alt="ProfessorReview" style="opacity: 0.7;">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Professor Review</h5>
-                  <pre>Python   BeautifulSoup</pre>
-                </div>    
-              </div>
-              <div class="carousel-item" data-toggle="modal" data-target="#CNNModal">
-                <img src="img/CNN.PNG" alt="CNN-Powered Image Registration" style="opacity: 0.8; zoom: 1.2;"> 
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>CNN-Powered Image Registration</h5>
-                  <pre>Python   Machine Learning    TensorFlow</pre>
-                </div>    
-              </div>
-              <div class="carousel-item" data-toggle="modal" data-target="#MovieModal">
-                <img class = "w-100" src="img/movie.jpg" alt="Movie Rating Predictor" style="opacity: 0.7;">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Movie Rating Predictor</h5>
-                  <pre>Python   Data Mining     pandas    Keras</pre>
-                </div>    
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselWorkIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselWorkIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>   
-        </div>     
-      </div> -->
     </div>
   </section>
 
-  <section id="fun" class = "bg-light">
+  <section id="fun" class = "bg-primary">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
@@ -597,7 +581,7 @@
     </div>
   </section>
 
-  <section id ="contact" class= "bg-primary">
+  <section id ="contact" class= "bg-light">
     <div class="container">
       <div class ="row">
         <div class ="col-lg-10 mx-auto">

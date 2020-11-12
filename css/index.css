@@ -235,7 +235,26 @@ pre{
   -ms-transform: translate(-50%, -50%)
 }
 
+.timelineHeader{
+  height: 50px
+}
+.timelineTitle{
+    float: left;
+    display: inline;
+    vertical-align: top;
 
+}
+
+.timelineYear{
+  float: right;
+  display: inline;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+p > a, li > a{
+  color: #24517B
+}
 
 /* "Album covers" */
 
