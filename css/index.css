@@ -173,6 +173,9 @@ pre{
   opacity: 1;
 }
 
+.summary a:link{
+  color: #212529;
+}
 
 .profileText {
   transition: .5s ease;
